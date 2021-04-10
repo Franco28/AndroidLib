@@ -56,13 +56,14 @@ namespace RegawMOD.Android
     /// </example>
     public sealed class AndroidController
     {
-        private const string ANDROID_CONTROLLER_TMP_FOLDER = "AndroidLib\\";
+        private const string ANDROID_CONTROLLER_TMP_FOLDER = "C:\\";
         private static readonly Dictionary<string, string> RESOURCES = new Dictionary<string, string>
         {
-            {"adb.exe","862c2b75b223e3e8aafeb20fe882a602"},
-            {"AdbWinApi.dll", "47a6ee3f186b2c2f5057028906bac0c6"},
-            {"AdbWinUsbApi.dll", "5f23f2f936bdfac90bb0a4970ad365cf"},
-            {"fastboot.exe", "35792abb2cafdf2e6844b61e993056e2"},
+            {"adb.exe",""},
+            {"AdbWinApi.dll", ""},
+            {"AdbWinUsbApi.dll", ""},
+            {"libwinpthread-1.dll", ""},
+            {"fastboot.exe", ""},
         };
 
         private static AndroidController instance;
