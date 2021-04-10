@@ -45,7 +45,7 @@ namespace RegawMOD
 
         static ResourceFolderManager()
         {
-            REGAWMOD_TEMP_DIRECTORY = new DirectoryInfo("adb\\");
+            REGAWMOD_TEMP_DIRECTORY = new DirectoryInfo("C:\\adb");
             controlledFolders = new Dictionary<string, DirectoryInfo>();
 
             if (!REGAWMOD_TEMP_DIRECTORY.Exists)

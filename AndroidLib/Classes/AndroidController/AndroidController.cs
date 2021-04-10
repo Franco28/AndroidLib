@@ -56,7 +56,7 @@ namespace RegawMOD.Android
     /// </example>
     public sealed class AndroidController
     {
-        private const string ANDROID_CONTROLLER_TMP_FOLDER = "C:\\";
+        private const string ANDROID_CONTROLLER_TMP_FOLDER = "\\";
         private static readonly Dictionary<string, string> RESOURCES = new Dictionary<string, string>
         {
             {"adb.exe",""},
